@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DCRFormAuraController</members>
+        <members>DCRFormAuraControllerTest</members>
+        <members>TempClass</members>
+        <members>TempClassTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>DCRForm</members>
+        <members>DCRLightningOut</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Stg_NPI__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>MDM_Administrator</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>42.0</version>
+</Package>

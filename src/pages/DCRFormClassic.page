@@ -1,0 +1,16 @@
+<apex:page standardController="Account">
+    <apex:includeLightning />
+
+    <div id="lightning" />
+
+    <script>
+        $Lightning.use("c:DCRLightningOut", function() {
+          $Lightning.createComponent( "c:DCRForm",
+          {rcdId:{!account.id}},
+              "lightning",
+              function(cmp) {
+              }
+          );
+        });
+    </script>
+</apex:page>

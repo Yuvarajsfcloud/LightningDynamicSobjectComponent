@@ -1,0 +1,11 @@
+
+    
+.THIS .customRequired .slds-form-element__label::after{
+    
+    content: "<<=";
+    margin: 0 0.125rem 0 0.125rem;
+    color: rgb(194, 57, 52);
+    float: right; }  
+    
+.THIS .none{
+    display:none; }
